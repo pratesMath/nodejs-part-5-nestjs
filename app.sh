@@ -50,10 +50,8 @@ npm i -D @faker-js/faker
 
 # verificando o funcionamento do projeto
 npx tsc --noEmit
-
 # instalando multer como dependência de desenvolvimento
 npm i -D @types/multer
-
 # instalando lib do SDK da AWS S3
 npm i @aws-sdk/client-s3
 # instalando ioredis para trabalhar com cache
