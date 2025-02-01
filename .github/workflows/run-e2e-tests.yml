@@ -17,14 +17,10 @@ jobs:
           POSTGRES_PASSWORD: docker
           POSTGRES_DB: nest-clean
           PGDATA: /data/postgres
-        volumes:
-          - ./data/pg:/data/postgres
       cache:
         image: redis
         ports:
           - 6379:6379
-        volumes:
-          - ./data/redis:/data
 
     steps:
       - uses: actions/checkout@v3

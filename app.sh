@@ -56,6 +56,5 @@ npm i -D @types/multer
 
 # instalando lib do SDK da AWS S3
 npm i @aws-sdk/client-s3
-
 # instalando ioredis para trabalhar com cache
 npm i ioredis
